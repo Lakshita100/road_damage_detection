@@ -96,13 +96,15 @@ After **30 epochs** of training, the model achieved the following performance on
 
 ## 🔍 Inference & Prediction
 
-Predictions were generated on the test set using the trained model (`best.pt`).
+- Predictions were generated on the test set using the trained model (`best.pt`).
 
 Each test image produces a corresponding `.txt` file in YOLO format:
 
+```bash
 <class_id> <x_center> <y_center> <width> <height> <confidence_score>
+```
 
-Inference logic is implemented in `infer.py`.
+- Inference logic is implemented in `infer.py`.
 
 ---
 
