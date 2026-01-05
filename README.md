@@ -60,6 +60,7 @@ yolo detect train \
   epochs=30 \
   imgsz=640 \
   batch=16
+```
 
 ## 🔧 Data Augmentation & Optimization
 
@@ -95,13 +96,15 @@ After **30 epochs** of training, the model achieved the following performance on
 
 ## 🔍 Inference & Prediction
 
-Predictions were generated on the test set using the trained model (`best.pt`).
+- Predictions were generated on the test set using the trained model (`best.pt`).
 
 Each test image produces a corresponding `.txt` file in YOLO format:
 
+```bash
 <class_id> <x_center> <y_center> <width> <height> <confidence_score>
+```
 
-Inference logic is implemented in `infer.py`.
+- Inference logic is implemented in `infer.py`.
 
 ---
 
@@ -109,11 +112,13 @@ Inference logic is implemented in `infer.py`.
 
 The final submission is structured as follows:
 
+```bash
 submission.zip
 └── predictions/
     ├── 000001.txt
     ├── 000002.txt
     └── ...
+```
 
 - One prediction file per test image
 - Empty files included where no damage is detected
@@ -123,6 +128,7 @@ submission.zip
 
 ## 📁 Project Structure
 
+```bash
 road-damage-detection/
 │
 ├── README.md
@@ -133,6 +139,7 @@ road-damage-detection/
 ├── kaggle/
 │   └── training_notebook.ipynb
 └── submission.zip
+```
 
 ---
 
@@ -142,6 +149,7 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ---
 
@@ -151,7 +159,7 @@ This project demonstrates a robust and scalable approach to automated road damag
 
 ---
 
-##📎 References
+## 📎 References
 - Ultralytics YOLOv8: https://docs.ultralytics.com
 - RDD2022 Dataset
 
