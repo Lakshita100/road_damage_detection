@@ -62,7 +62,7 @@ yolo detect train \
   batch=16
 ```
 
-## 🔧 Data Augmentation & Optimization
+##🔧 Data Augmentation & Optimization
 
 ### Data Augmentation
 To improve generalization and robustness, the following augmentation techniques were applied during training:
