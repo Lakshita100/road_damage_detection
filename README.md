@@ -110,11 +110,13 @@ Inference logic is implemented in `infer.py`.
 
 The final submission is structured as follows:
 
+```bash
 submission.zip
 └── predictions/
     ├── 000001.txt
     ├── 000002.txt
     └── ...
+```
 
 - One prediction file per test image
 - Empty files included where no damage is detected
@@ -124,6 +126,7 @@ submission.zip
 
 ## 📁 Project Structure
 
+```bash
 road-damage-detection/
 │
 ├── README.md
@@ -134,6 +137,7 @@ road-damage-detection/
 ├── kaggle/
 │   └── training_notebook.ipynb
 └── submission.zip
+```
 
 ---
 
