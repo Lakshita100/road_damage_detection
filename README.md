@@ -159,7 +159,7 @@ This project demonstrates a robust and scalable approach to automated road damag
 
 ---
 
-##📎 References
+## 📎 References
 - Ultralytics YOLOv8: https://docs.ultralytics.com
 - RDD2022 Dataset
 
